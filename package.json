@@ -2,7 +2,7 @@
   "name": "react-init-project",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
