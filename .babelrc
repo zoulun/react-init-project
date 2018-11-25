@@ -5,12 +5,11 @@
     "stage-1"
   ],
   "plugins": [
+    "react-hot-loader/babel",
     [
-      "import",
+      "transform-runtime",
       {
-        "libraryName": "antd",
-        "libraryDirectory": "es",
-        "style": "css"
+        "polyfill": false
       }
     ]
   ]

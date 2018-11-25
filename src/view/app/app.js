@@ -1,14 +1,15 @@
 import React, { Component } from "react";
-import "./home.less";
+import { hot } from "react-hot-loader";
+import "./app.less";
 
-export default class Home extends Component {
+class App extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
     return (
-      <div className="home">
+      <div className="app">
         <div className="title">
           <h1>Welcome</h1>
           <p>React-init-project</p>
@@ -17,3 +18,5 @@ export default class Home extends Component {
     )
   }
 }
+
+export default hot(module)(App)
